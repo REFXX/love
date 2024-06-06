@@ -1397,3 +1397,30 @@ h3{
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }/*# sourceMappingURL=main.css.map */
+
+@media only screen and (max-width: 768px) {
+  .text-content {
+    display: block;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%)
+  }
+  .foto{
+    transform: scale(0.7);
+    left: 0;
+  }
+
+  span{
+    font-size: 8px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 14px;
+  }
+  h3{
+    font-size: 12px;
+  }
+  /* Add more styles as needed */
+}
